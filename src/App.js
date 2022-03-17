@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import ItemListContainer from './components/itemListContainer/ItemListContainer.jsx';
 import './sass/app.scss';
 
 import Navbar from './components/navBar/Navbar.jsx';
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       <Navbar/>
-
+      <ItemListContainer/>
       </header>
     </div>
   );

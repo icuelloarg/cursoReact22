@@ -1,4 +1,7 @@
+import CartWidget from "./cartWidget/CartWidget.jsx"
+
 const navbar = () => {
+
     return(
         <nav className="menu mainNav flex-row" id="mainNavbar">
         <ul className="navbar flex-row">
@@ -6,6 +9,7 @@ const navbar = () => {
             <li className="menuNav" id="wall"><a href=""><h4> Wallets</h4></a></li>
             <li className="menuNav" id="rigs"><a href=""><h4>Rigs Mineros</h4></a> </li>
             <li className="menuNav" id="gpus"><a href=""><h4>GPU's</h4></a></li>
+            <li className="menuNav" id="cartW"><a href=""><CartWidget/></a></li>
         </ul>
     </nav>
     )
