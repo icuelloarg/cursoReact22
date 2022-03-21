@@ -1,0 +1,27 @@
+.contador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.certDiv{
+    position: relative;
+    top: 10vh;
+}
+.plus{
+    position:relative;
+    margin-right: 5px;
+    background-color: grey;
+    color: white;
+}
+
+.minus{
+    position: relative;
+    margin-left: 5px;
+    background-color: grey;
+    border-radius: 8%;
+    color: white;
+}
